@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ::-webkit-calendar-picker-indicator {
+    filter: invert(41%) sepia(100%) saturate(341%) hue-rotate(120deg) brightness(90%) contrast(84%);
+} */

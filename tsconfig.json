@@ -1,0 +1,17 @@
+{
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+	  "target": "ES2017",
+	  "module": "ESNext",
+	  "moduleResolution": "Node",
+	  "lib": ["DOM", "ESNext", "WebWorker"],
+	  "esModuleInterop": true,
+	  "strict": false,
+	  "jsx": "preserve",
+	  "resolveJsonModule": true,
+	  "isolatedModules": true
+	},
+	"include": ["src/**/*", "src/**/*.d.ts"],
+	"exclude": ["node_modules"]
+  }
+  
